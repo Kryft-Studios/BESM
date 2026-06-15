@@ -1,23 +1,39 @@
 {
-	"name":"besm",
-	"version": "0.1.0",
-	"description": "ESM Support for Bloxd.",
-	"author": {
-		"name": "Kryft Studios",
-		"url": "https://github.com/Kryft-Studios",
-		"email": "AfriaStudios@outlook.in"
-	},
-	"devDependencies": {
-		"@types/babel__generator": "^7.27.0",
-		"@types/node": "^25.9.3",
-		"typescript": "^6.0.3"
-	},
-	"dependencies": {
-		"@babel/generator": "^7.29.7",
-		"@babel/parser": "^7.29.7",
-		"@babel/traverse": "^7.29.7",
-		"@babel/types": "^7.29.7",
-		"terser": "^5.48.0"
-	},
-	"type":"module"
+    "name": "besm",
+    "version": "0.1.0",
+    "description": "ESM Support for Bloxd.",
+    "type": "module",
+    "bin": {
+        "besm": "./dist/entry.js"
+    },
+    "main": "./dist/entry.js",
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "author": {
+        "name": "Kryft Studios",
+        "url": "https://github.com/Kryft-Studios",
+        "email": "AfriaStudios@outlook.in"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Kryft-Studios/BESM.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Kryft-Studios/BESM/issues"
+    },
+    "homepage": "https://github.com/Kryft-Studios/BESM#readme",
+    "devDependencies": {
+        "@types/babel__generator": "^7.27.0",
+        "@types/node": "^25.9.3",
+        "typescript": "^6.0.3"
+    },
+    "dependencies": {
+        "@babel/generator": "^7.29.7",
+        "@babel/parser": "^7.29.7",
+        "@babel/traverse": "^7.29.7",
+        "@babel/types": "^7.29.7",
+        "terser": "^5.48.0"
+    }
 }
