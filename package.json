@@ -1,11 +1,14 @@
 {
-    "name": "b-esm",
+    "name": "bloxd-esm",
     "version": "0.1.0",
     "description": "ESM Support for Bloxd.",
     "type": "module",
     "bin": {
         "besm": "./dist/entry.js"
     },
+	"publishConfig": {
+		"access": "public"
+	},
     "main": "./dist/entry.js",
     "files": [
         "dist",

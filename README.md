@@ -2,8 +2,8 @@
 
 # How to use
 
-1. Use your preferred package manager to download `besm` on npm.
-e.g.: `pnpm add -D b-esm`
+1. Use your preferred package manager to download `bloxd-esm` on npm.
+e.g.: `pnpm add -D bloxd-esm`
 
 2. Once installed, do:
 ```bash
