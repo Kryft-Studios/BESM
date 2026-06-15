@@ -1,6 +1,6 @@
 {
     "name": "bloxd-esm",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "ESM Support for Bloxd.",
     "type": "module",
     "bin": {
@@ -10,10 +10,6 @@
 		"access": "public"
 	},
     "main": "./dist/entry.js",
-    "files": [
-        "dist",
-        "README.md"
-    ],
     "author": {
         "name": "Kryft Studios",
         "url": "https://github.com/Kryft-Studios",

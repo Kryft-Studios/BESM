@@ -1,4 +1,4 @@
-#!/usr/bin/node
+#!/usr/bin/env node
 import {existsSync, mkdir, mkdirSync, readFileSync, statSync, writeFileSync} from "node:fs";
 import { GenerateBloxd } from "./gen-code.js";
 import { Configuration } from "./config.js";
