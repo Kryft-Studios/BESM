@@ -1,5 +1,5 @@
 {
-    "name": "besm",
+    "name": "b-esm",
     "version": "0.1.0",
     "description": "ESM Support for Bloxd.",
     "type": "module",

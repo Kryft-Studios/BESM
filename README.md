@@ -3,7 +3,7 @@
 # How to use
 
 1. Use your preferred package manager to download `besm` on npm.
-e.g.: `pnpm add -D besm`
+e.g.: `pnpm add -D b-esm`
 
 2. Once installed, do:
 ```bash
