@@ -7,12 +7,12 @@ e.g.: `pnpm add -D bloxd-esm`
 
 2. Once installed, do:
 ```bash
-besm init
+bloxd-esm init
 ```
 
 3. To build, use:
 ```bash
-besm build
+bloxd-esm build
 ```
 
 # Hooks

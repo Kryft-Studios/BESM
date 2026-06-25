@@ -7,6 +7,7 @@ import rl from "readline/promises"
 import { stderr, stdin, stdout } from "node:process";
 export function error(...message:string[]){
     console.error("[BESM Error]",...message);
+    process.exit(1)
 }
 const headdir= process.cwd()
 
